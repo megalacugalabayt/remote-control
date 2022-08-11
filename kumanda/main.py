@@ -61,7 +61,7 @@ class Kumanda():
     def __str__(self):
         return "TV Durumu:{}\n TV Ses:{}\n Kanal Listesi: {}\nŞu Anki Kanal:{}\n".format(self.tv_durum,format(self.tv_ses),format(self.kanal_listesi),format(self.kanal))
 
-kumanda = Kumanda()
+kumanda = Kumanda() 
 
 print("""
     TV Uygulaması
